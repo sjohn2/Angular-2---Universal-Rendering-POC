@@ -9,6 +9,9 @@
  * 'home', 'about'
  * ];
  **/
-export const routes: string[] = [
 
+
+
+export const routes: string[] = [
+'weather','currency','movie'
 ];
