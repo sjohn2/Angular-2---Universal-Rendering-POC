@@ -13,6 +13,8 @@ import { WeatherComponent } from './weather/weather.component';
 import { CurrencyComponent } from './currency/currency.component';
 import { MovieComponent } from './movie/movie.component';
 
+import {SharedService} from './shared.service';
+
 
 @NgModule({
   declarations: [
@@ -30,7 +32,7 @@ import { MovieComponent } from './movie/movie.component';
     AppRoutingModule,
     UniversalModule
   ],
-  providers: [],
+  providers: [SharedService],
   bootstrap: [AppComponent]
 })
 export class AppModule{}

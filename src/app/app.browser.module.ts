@@ -21,6 +21,7 @@ import { WeatherComponent } from './weather/weather.component';
 import { CurrencyComponent } from './currency/currency.component';
 import { MovieComponent } from './movie/movie.component';
 
+import {SharedService} from './shared.service';
 
 @NgModule({
   declarations: [

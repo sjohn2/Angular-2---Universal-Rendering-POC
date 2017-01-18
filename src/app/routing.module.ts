@@ -7,6 +7,8 @@ import { WeatherComponent } from './weather/weather.component';
 import { CurrencyComponent } from './currency/currency.component';
 import { MovieComponent } from './movie/movie.component';
 
+import {SharedService} from './shared.service';
+
 const appRoutes: Routes = [
     { path: '', redirectTo: '/weather', pathMatch: 'full' },
     { path: 'weather', component: WeatherComponent },
@@ -24,8 +26,6 @@ const appRoutes: Routes = [
   exports: [
     RouterModule
   ],
-  providers: [
-   
-  ]
+  providers: [SharedService]
 })
 export class AppRoutingModule {}
