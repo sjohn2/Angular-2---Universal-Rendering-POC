@@ -1,0 +1,66 @@
+/*
+* COLOR VARIABLES
+*/
+//test
+/* primary palette */
+$brand-primary: #CC0033;
+$black: #111111;
+$white: #fefefe;
+$body-color: #555555;
+
+/* secondary palette */
+$atlantic: #2C5C8B;
+$emerald: #288564;
+$moss: #4B8510;
+
+/* accent color */
+$plum: #742B60;
+
+/* states */
+$brand-primary-hover: #A9002A;
+$brand-primary-pressed: #820021;
+$disabled-gray: #9B0027;
+$component-background: #F1F1F1;
+$divider-gray: #C8C8C8;
+$tile-gray: #D3D3D3;
+$tile-hover-gray: #C2C2C2;
+$card-stroke-gray: #CECECE;
+$card-stroke-hover-gray: #A4A4A4;
+$rating-yellow: #D69638;
+$secondary-button-pressed-gray: #D6D6D6;
+
+/* verification copy colors */
+$vc-blue: #44719E;
+$vc-green: $moss;
+$vc-red: #CC0033;
+
+/*
+* TYPOGRAPHY VARIABLES
+*/
+$roboto-black: 'Roboto Black';
+$roboto-bold: 'Roboto Bold';
+$roboto-bold-italic: 'Roboto Bold Italic';
+$roboto: 'Roboto';
+$roboto-italic: 'Roboto Italic';
+$roboto-light: 'Roboto Light';
+$roboto-light-italic: 'Roboto Light Italic';
+$roboto-medium: 'Roboto Medium';
+$roboto-medium-italic: 'Roboto Medium Italic';
+
+/*
+* FONT SIZING VARIABLES
+*/
+$font-40px: 2.5rem;
+$font-36px: 2.25rem;
+$font-30px: 1.875rem;
+$font-24px: 1.5rem;
+$font-20px: 1.25rem;
+$font-18px: 1.125rem;
+$font-16px: 1rem; /*  base size */
+$font-15px: 0.9375rem;
+$font-14px: 0.875rem;
+$font-12px: 0.75rem;
+$font-11px: 0.6875rem;
+$font-10px: 0.625rem;
+$font-9px: 0.5625rem;
+$font-8px: 0.5rem;

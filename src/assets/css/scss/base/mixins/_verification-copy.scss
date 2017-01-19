@@ -1,0 +1,3 @@
+@mixin verification-copy() {
+  @include custom-font($roboto-medium, $font-15px);
+}

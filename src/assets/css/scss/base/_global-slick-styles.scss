@@ -1,0 +1,29 @@
+.slick-arrow {
+  background-color: $brand-primary;
+  color: $white;
+  padding: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 39%;
+
+  &-next {
+    right: -64px;
+  }
+
+  &-prev {
+    left: -65px;
+  }
+
+  &:hover {
+    background-color: $brand-primary-hover;
+    cursor: pointer;
+  }
+
+  &:active {
+    background-color: $brand-primary-pressed;
+  }
+
+  i {
+    font-size: $font-20px;
+  }
+}

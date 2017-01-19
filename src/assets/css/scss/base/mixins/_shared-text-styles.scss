@@ -1,0 +1,25 @@
+// Text styles that might be used in places that are not just the given <html> element
+@mixin h2-style(){
+  @include custom-font($roboto, $font-20px);
+  line-height: 27px;
+  color: $black;
+}
+
+
+@mixin a-style() {
+  @include custom-font($roboto-medium, $font-15px);
+  text-decoration: underline;
+  color: $dark-gray;
+}
+
+@mixin h3-style() {
+  @include custom-font($roboto-medium, $font-18px);
+  line-height: 25px;
+  color: $black;
+}
+
+@mixin utility-nav-link() {
+  @include custom-font($roboto-medium, $font-15px);
+  line-height: 24px;
+  color: $black;
+}

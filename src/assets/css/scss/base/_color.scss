@@ -1,0 +1,41 @@
+.brand-colors {
+  li {
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+  }
+  &__swatch {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #CCC;
+  }
+
+  .primary {
+    background-color: $brand-primary;
+  }
+
+  .black {
+    background-color: $black;
+  }
+
+  .white {
+    background-color: $white;
+  }
+
+  .atlantic {
+    background-color: $atlantic;
+  }
+
+  .emerald {
+    background-color: $emerald;
+  }
+
+  .moss {
+    background-color: $moss;
+  }
+
+  .plum {
+    background-color: $plum;
+  }
+}
