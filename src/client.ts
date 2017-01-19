@@ -3,6 +3,7 @@
  */
 import './polyfills.ts';
 import './__2.1.1.workaround.ts'; // temporary until 2.1.1 things are patched in Core
+import 'foundation-sites/dist/css/foundation.min.css';
 import { enableProdMode } from '@angular/core';
 import { environment } from './environments/environment';
 import { platformUniversalDynamic } from 'angular2-universal';
