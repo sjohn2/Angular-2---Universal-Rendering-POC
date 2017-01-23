@@ -1,6 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 @import "./assets/css/scss/base/base";
 
-.colornew{
-    color: $brand-primary;
-}
+@import './assets/css/scss/base/framework-settings';
+// vendor
+@import "../node_modules/foundation-sites/scss/foundation";
+// include flex
+@include foundation-everything(true);

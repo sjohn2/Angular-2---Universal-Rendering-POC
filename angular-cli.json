@@ -20,7 +20,7 @@
       "mobile": false,
       "universal": true,
       "styles": [
-        "styles.scss"
+        "styles.scss"      
       ],
       "scripts": [],
       "environments": {
