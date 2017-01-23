@@ -1,0 +1,5 @@
+.disclaimers {
+  @include custom-font($roboto-italic, $font-14px);
+  line-height: 22px;
+  color: $medium-gray;
+}

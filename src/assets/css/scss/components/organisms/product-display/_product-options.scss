@@ -1,0 +1,57 @@
+.product-display {
+  &__product-options {
+    margin-top: 30px;
+    @include section-divider();
+
+    h3 {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__product-variation {
+    display: inline-block;;
+    width: 24%;
+    margin-bottom: 30px;
+    position: relative;
+
+    @include breakpoint(small only){
+      width: 49%;
+    }
+
+    &--selected {
+      .product-display__selected-mask {
+        display: block;
+      }
+    }
+  }
+
+  &__selected-mask {
+    display: none;
+    width: 92px;
+    height: 92px;
+    top: 0;
+    left: 5px;
+    background-color: $vc-blue;
+    position: absolute;
+    border-radius: 5px;
+    opacity: 0.9;
+
+    img {
+      width: 32px;
+      top: 30%;
+      position: relative;
+    }
+  }
+
+  &__variation-image {
+    display: block;
+    width: 100px;
+    border-radius: 5px;
+  }
+
+  &__variation-title {
+    margin-top: 8px;
+    text-align: left;
+    @include custom-font($roboto-medium-italic, $font-16px);
+  }
+}

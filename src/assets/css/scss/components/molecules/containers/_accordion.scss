@@ -1,0 +1,11 @@
+.accordion {
+  a.accordion-title {
+    @include h2-style();
+    color: $white;
+    text-decoration: none;
+  }
+
+  &-content {
+    padding: 60px;
+  }
+}

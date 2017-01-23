@@ -1,0 +1,27 @@
+.product-display {
+  &__cart-section {
+    margin-top: 30px;
+    @include section-divider();
+  }
+
+  &__club-price-label {
+    margin-bottom: 15px;
+    @include utility-nav-link();
+  }
+
+  &__callout-holder {
+    margin: 20px 0;
+  }
+
+  &__callout-label {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    color: $vc-blue;
+    @include verification-copy();
+
+    &--emphasis {
+      margin-left: 10px;
+    }
+  }
+}

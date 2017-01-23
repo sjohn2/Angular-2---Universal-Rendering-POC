@@ -1,0 +1,142 @@
+.header-nav {
+   @media #{$small-only} {
+    background-color: $brand-primary;
+    height: 66px;
+    padding-left: 0;
+  }
+
+  padding-left: 20px;
+  background-color: $white;
+  display: flex;
+  border-bottom: $divider-gray;
+
+  &__logo {
+    max-width: 100%;
+    position: absolute;
+    top: 42px;
+    display: inline-block;
+    vertical-align: middle;
+
+      @include breakpoint(small only) {
+        top: 4px;
+      }
+  }
+
+ &__lg-logo {
+    @include breakpoint(small only) {
+      display: none;
+    }
+  }
+
+  &__sm-logo {
+    @include breakpoint(medium up) {
+      display: none;
+    }
+  }
+
+  &__logo-container {
+    @include breakpoint(small only) {
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 60px;
+    }
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+
+  &__shop {
+    @include breakpoint(small only) {
+      display: none;
+    }
+    width: 85%;
+    white-space: nowrap;
+  }
+
+  &__search {
+    @media #{$small-only} {
+      display: none;
+    }
+  }
+
+  &__hamburger-container {
+    @include breakpoint(small only) {
+      width: 65%;
+      flex-direction: row-reverse;
+    }
+
+    width: 26%;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &__burger-menu {
+     @include breakpoint(small only) {
+      display: flex;
+      color: $white;
+    }
+    padding-right: 0;
+
+    i {
+      font-size: 30px;
+    }
+  }
+
+  &__account-container {
+    @include breakpoint(small only) {
+      justify-content: flex-end;
+    }
+    padding-left: 3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &__account {
+    @include breakpoint(small only) {
+      display: none;
+    }
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 40px;
+  }
+
+  &__profile-img {
+    height: 40px;
+    width: 40px;
+    //background-image: url('./../images/Furniture-User-02.jpg');
+    border-radius: 50%;
+    margin-right: 10px;
+
+  }
+
+  &__profile-menu {
+    display: inline-block;
+  }
+
+  &__cart {
+    @include breakpoint(small only) {
+      color: $white;
+      margin-top: 20px;
+    }
+
+    text-align: center;
+    vertical-align: middle;
+
+    i {
+      @include breakpoint(small only) {
+      margin-top: 0;
+    }
+
+      font-size: 40px;
+
+      &:hover {
+        opacity: 0.5;
+        cursor: pointer;
+      }
+    }
+  }
+}

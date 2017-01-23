@@ -1,0 +1,22 @@
+.product-details {
+  table {
+    border: 2px solid $divider-gray;
+    border-collapse: collapse;
+    border-radius: 5px;
+  }
+
+  thead {
+    background-color: $component-background;
+    border-radius: 5px;
+  }
+
+  th {
+    text-align: center;
+    @include h3-style();
+  }
+
+  td {
+    padding: 10px;
+    border: 2px solid $divider-gray;
+  }
+}

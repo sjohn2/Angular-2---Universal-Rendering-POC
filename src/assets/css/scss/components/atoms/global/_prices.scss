@@ -1,0 +1,5 @@
+.item-price {
+  @include custom-font($roboto-bold, $font-30px);
+  line-height: 38px;
+  color: $moss;
+}

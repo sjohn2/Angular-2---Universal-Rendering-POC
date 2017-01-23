@@ -1,0 +1,38 @@
+.header-search {
+
+  &__container {
+  	display: flex;
+    flex-direction: row;
+
+  }
+
+  &__dropdown {
+  	color: white;
+  	background: #447198;
+  	padding-left: 20px;
+    padding-right: 20px;
+    stroke: #44719E;
+    border-radius: 5px 0px 0px 5px;
+    line-height: 50px;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+	  i {
+	  	display: flex;
+	  	line-height: 50px;
+	  }
+  }
+  form {
+  	width: 76%;
+  	input {
+  	  margin: 0;
+  	  height: 50px;
+      border-radius: 0px 5px 5px 0px;
+  	  //background-image: url('./../../images/ic_search_black_24dp_2x.png');
+  	  background-repeat: no-repeat;
+  	  background-position-x: 100%;
+  	  background-size: 30px;
+  	  background-position-y: 50%;
+  	}
+  }
+}

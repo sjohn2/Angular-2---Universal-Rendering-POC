@@ -1,0 +1,45 @@
+.breadcrumbs {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px;
+
+  &__container {
+    width: 100%;
+    background-color: $component-background;
+  }
+
+  @media screen and (max-width: 39.9375em) {
+    display: none;
+  }
+
+  li {
+    display: flex;
+    flex-direction: row;
+
+    i {
+      display: block;
+      margin-left: 4px;
+      color: $vc-blue;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    &:last-child {
+      i {
+        visibility: hidden;
+      }
+
+      a {
+        color: $black;
+
+        &:hover {
+          text-decoration: none;
+          cursor: default;
+        }
+      }
+
+    }
+  }
+}

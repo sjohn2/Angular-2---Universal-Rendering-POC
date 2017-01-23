@@ -1,0 +1,20 @@
+.product-display {
+  &__product-info-text {
+    // margin-top: 30px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+
+    h3 {
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin-bottom: 40px;
+
+      &:last-child {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

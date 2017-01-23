@@ -1,0 +1,42 @@
+a.button {
+  @include custom-font($roboto-bold, $font-14px);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  padding: 18px 9px;
+
+  // &:hover {
+  //   cursor: pointer;
+  //   background-color: $brand-primary-hover;
+  // }
+
+  @include button-style($brand-primary, $brand-primary-hover, $white);
+
+  &:active {
+    @include button-style($brand-primary-pressed, $brand-primary-pressed, $white);
+  }
+
+  &:disabled {
+    @include button-style($disabled-gray, $disabled-gray, $white);
+  }
+}
+
+button.button.primary {
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  @include custom-font($roboto-bold, $font-14px);
+}
+
+button.button.secondary {
+  border: 2px solid $black;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  padding: 18px 9px;
+  @include custom-font($roboto-bold, $font-14px);
+  @include button-style(transparent, $component-background, $black);
+
+  &:active {
+    @include button-style($secondary-button-pressed-gray, $secondary-button-pressed-gray, $black);
+  }
+
+}

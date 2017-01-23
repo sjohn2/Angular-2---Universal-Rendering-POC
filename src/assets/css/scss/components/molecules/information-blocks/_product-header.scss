@@ -1,0 +1,27 @@
+.product-header {
+  margin-top: 50px;
+
+  &__product-name {
+    margin-bottom: 10px;
+  }
+
+  &__product-review-display {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__product-rating {
+    margin-right: 10px;
+  }
+
+  &__product-reviews {
+    margin: 0 10px;
+
+    i {
+      font-size: $font-16px;
+    }
+  }
+  .icon-active {
+    color: $rating-yellow;
+  }
+}
